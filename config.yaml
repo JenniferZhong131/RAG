@@ -1,0 +1,8 @@
+# Example config; adjust to your environment
+retriever:
+  mode: "hybrid"   # or bm25 / embedding
+  top_k: 5
+  api_base: "http://localhost:9621/api"   # 若你用 LightRAG，本地默认端口
+paths:
+  data_dir: "data"
+  results_dir: "results"
